@@ -14,4 +14,4 @@ docker run -d --name $1 -it \
   --volume="/etc/sudoers.d:/etc/sudoers.d:ro" \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --env QT_X11_NO_MITSHM=1 \
-  ${2:-xdeng48/fetch_melodic:latest}
+  ${2:-theredcomputer/fetch_melodic:latest}
